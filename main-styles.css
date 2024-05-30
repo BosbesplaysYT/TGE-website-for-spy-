@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Minecraft', sans-serif;
+}
+
+.background-image {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.index-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 800px; /* Adjust the width of the container */
+    width: 100%;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #3a85c6;
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.box h3 {
+    margin-bottom: 10px;
+    color: #3a85c6;
+}
+
+.box p {
+    color: #333;
+    margin: 0;
+}
+
+.box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.box ul li {
+    margin-bottom: 5px;
+}
+
+/* Add transition property to smoothly fade in the index container */
+.index-container {
+    transition: opacity 1s ease-in-out; /* Adjust the duration and timing function as needed */
+}
